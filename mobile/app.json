@@ -6,6 +6,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "sdkVersion": "36.0.0",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -16,7 +17,12 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.brunoalves.bethehero"
+    },
+    "android": {
+      "package": "com.brunoalves.bethehero",
+      "versionCode": 1
     }
   }
 }
